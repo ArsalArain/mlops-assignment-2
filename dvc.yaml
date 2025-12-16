@@ -1,0 +1,8 @@
+stages:
+  train_model:
+    cmd: python -m src.train --output-dir models
+    deps:
+    - data/dataset.csv
+    - src/train.py
+    outs:
+    - models/model.joblib
