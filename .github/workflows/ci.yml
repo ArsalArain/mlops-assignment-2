@@ -22,6 +22,10 @@ jobs:
       - name: Run tests
         run: |
           pytest -q
+      - name: Lint (flake8)
+        run: |
+          pip install flake8
+          flake8 .
       - name: Run training script
         run: |
           python -m src.train --output-dir models
