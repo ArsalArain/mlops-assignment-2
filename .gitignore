@@ -2,6 +2,10 @@
 __pycache__/
 *.py[cod]
 *.pyo
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
 
 # Virtual environment
 .venv/
@@ -9,32 +13,17 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data and models
-data/
+# Models/artifacts
 models/
 
 # OS files
 Thumbs.db
 desktop.ini
-# Byte-compiled files
-__pycache__/
-*.py[cod]
-*$py.class
 
-# Virtual environments
-.venv/
-env/
-venv/
-
-# VS Code
+# Editor
 .vscode/
-*.code-workspace
 
-# Data and models
-data/
-models/
-
-# Distribution / packaging
+# Packaging
 .Python
 build/
 dist/
@@ -46,6 +35,5 @@ dist/
 # Pip wheel cache
 pip-wheel-metadata/
 
-# OS files
+# Misc
 .DS_Store
-Thumbs.db
